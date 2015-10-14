@@ -33,7 +33,7 @@ if [ -n "$BUILD_DEBUG" ]; then
 	echo "DNX_VERSION: ${DNX_VERSION}"
 	echo "DNVM_BRANCH: ${DNVM_BRANCH}"
 else
-	DNU_FLAGS="--verbose"
+	DNU_FLAGS="-v"
 fi
 
 if [ -n "$UNSTABLE_TOOLCHAIN" ]; then
